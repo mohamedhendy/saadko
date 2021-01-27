@@ -1,0 +1,149 @@
+.team {
+  padding: 3rem 0 1rem;
+  overflow: hidden;
+}
+.team-group {
+  padding-top: 2rem;
+}
+.person {
+  box-shadow: 1px 1px 5px rgb(179, 177, 177);
+}
+.email {
+  font-size: 35px;
+  color: tomato;
+  margin-top: -30px;
+  position: relative;
+  z-index: 5;
+}
+.email i {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 30px;
+  border: 1px solid #ddd;
+  box-shadow: 1px 1px 5px rgb(53, 53, 53);
+}
+.team-content {
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+.team-content h5 {
+  font-weight: bold;
+}
+.person-des {
+  font-size: 13px;
+  color: #ddd;
+}
+.description {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 0;
+  overflow: hidden;
+  transition: height 0.4s ease-in-out;
+}
+.person:hover .description {
+  height: 100% !important;
+}
+.des-section {
+  padding: 20px;
+}
+.description h5 {
+  color: tomato;
+}
+.person-social li i {
+  width: 45px;
+  height: 45px;
+  background-color: #fff;
+  border-radius: 30px;
+  color: #fff;
+  margin: 10px;
+  font-size: 22px;
+  padding-top: 12px;
+  transition: all 0.2s ease-in-out;
+}
+.person-social li .fa-facebook-f {
+  background-color: royalblue;
+}
+.person-social li .fa-linkedin-in {
+  background-color: #0077b5;
+}
+.person-social li .fa-envelope {
+  background-color: #ae392d;
+}
+.person-social li .fa-whatsapp {
+  background-color: #4bed65;
+}
+.person-social li .fa-facebook-f:hover {
+  background-color: rgb(26, 60, 163);
+}
+.person-social li .fa-linkedin-in:hover {
+  background-color: #033f5f;
+}
+.person-social li .fa-envelope:hover {
+  background-color: #8f1a0d;
+}
+.person-social li .fa-whatsapp:hover {
+  background-color: #208b32;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 767.98px) {
+  .person {
+    margin-bottom: 2rem;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .person-social li i {
+    width: 40px;
+    height: 40px;
+    margin: 7px;
+    font-size: 19px;
+    padding-top: 10px;
+  }
+  .team .person-social li i {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    font-size: 14px;
+    padding-top: 9px;
+  }
+  .person-des {
+    font-size: 8px;
+  }
+  .description h5 {
+    color: tomato;
+    margin-bottom: 18px;
+    font-size: 14px;
+  }
+  .email {
+    font-size: 15px;
+    margin-top: -22px;
+  }
+  .team-content h5 {
+    font-size: 1rem;
+  }
+  .team-content p {
+    font-size: 14px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .person-social li i {
+    width: 40px;
+    height: 40px;
+    margin: 7px;
+    font-size: 19px;
+    padding-top: 10px;
+  }
+  .person-des {
+    font-size: 10px;
+  }
+  .description h5 {
+    color: tomato;
+    margin-bottom: 18px;
+  }
+  .email {
+    font-size: 26px;
+  }
+}

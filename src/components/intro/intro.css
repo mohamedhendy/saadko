@@ -1,0 +1,46 @@
+.main-h2 {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #fa183d;
+}
+.intro-paragraph {
+  margin-bottom: 10px;
+  font-size: 19px;
+}
+.main-h2-border {
+  border-top: 2px solid #0f1a37;
+  margin-top: 0;
+  width: 65px;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .main-h2 {
+    font-size: 25px;
+  }
+  .intro-paragraph {
+    font-size: 13px;
+    padding: 0 30px;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .main-h2 {
+    font-size: 25px;
+  }
+  .intro-paragraph {
+    font-size: 13px;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .main-h2 {
+    font-size: 28px;
+  }
+  .intro-paragraph {
+    font-size: 15px;
+  }
+}

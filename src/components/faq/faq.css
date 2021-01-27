@@ -1,0 +1,131 @@
+.faq {
+  padding: 5rem 0;
+  overflow: hidden;
+}
+.faq-over {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.faq-content {
+  margin-top: 4rem;
+}
+.faq .accordion .card-body {
+  font-size: 12px;
+  line-height: 2.5;
+}
+.faq .accordion .card {
+  border: 0;
+}
+.faq .accordion h2 {
+  border-bottom: 1px solid #ddd !important;
+}
+.faq .accordion .card-header {
+  border: 0;
+  background-color: transparent;
+}
+.faq .accordion button {
+  text-decoration: none;
+  color: #000;
+  padding-right: 0;
+  display: block;
+  width: 100%;
+  text-align: right;
+}
+.faq .accordion button[aria-expanded="true"] i {
+  transform: rotate(90deg);
+}
+.faq .accordion button span {
+  background-color: tomato;
+  color: #fff;
+  display: inline-block;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  padding-top: 4px;
+  margin-left: 10px;
+  text-align: center;
+}
+.faq .accordion button i {
+  float: left;
+  color: tomato;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.faq-video-btn {
+  top: 50%;
+  left: 50%;
+  z-index: 20;
+  transform: translate(-50%, -50%);
+}
+.faq-over img {
+  height: 100%;
+}
+.faq-content img {
+  height: 100%;
+}
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+ 
+  .faq .accordion button {
+    font-size: 11px;
+  }
+  .faq .accordion button span {
+    height: 25px;
+    width: 25px;
+    padding-top: 2px;
+    margin-left: 10px;
+  }
+  .faq .accordion .card-body {
+    font-size: 9px;
+  }
+  .accordion > .card > .card-header {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .faq .accordion button span {
+    padding-top: 5px;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .faq-video-btn {
+    top: 40%;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .faq .accordion button {
+    font-size: 14px;
+  }
+  .faq .accordion button span {
+    height: 25px;
+    width: 25px;
+    padding-top: 2px;
+    margin-left: 10px;
+  }
+  .faq .accordion .card-body {
+    font-size: 11px;
+  }
+  .accordion > .card > .card-header {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .faq .accordion button {
+    font-size: 14px;
+  }
+  .faq .accordion button span {
+    height: 25px;
+    width: 25px;
+    padding-top: 2px;
+    margin-left: 10px;
+  }
+  .faq .accordion .card-body {
+    font-size: 11px;
+  }
+  
+}

@@ -1,0 +1,114 @@
+.work-section {
+  padding: 5rem 0 0;
+}
+.work-btn button {
+  border: 0;
+  width: 140px;
+  font-weight: bold;
+  margin: 13px;
+  padding: 10px 10px;
+  border: 1px solid #ddd;
+  background-color: rgb(221, 220, 220);
+  border-radius: 5px;
+  transition: 0.2s all ease-in-out;
+}
+.control-buttons {
+  margin-bottom: 2rem;
+}
+.control-buttons ul {
+  padding-right: 0;
+}
+.work-btn .btn-active {
+  color: #fff;
+  background-color: #fa183d;
+}
+button:focus {
+  outline: none !;
+}
+.work-btn button:hover {
+  color: #fff;
+  background-color: #fa183d;
+}
+.way h4 {
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.way p {
+  font-size: 13px;
+  line-height: 1.5;
+  color: rgb(88, 88, 88);
+}
+.way-content {
+  padding: 0 30px;
+}
+.check-content i {
+  color: #fa183d;
+}
+.check-content {
+  margin-top: 3rem;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .way h4 {
+    font-size: 18px;
+  }
+  .way p {
+    font-size: 12px;
+  }
+  .check-content h5 {
+    font-size: 15px;
+  }
+  .check-content {
+    margin-top: 2rem;
+  }
+  .work-btn button {
+    width: 125px;
+    font-size: 13px;
+    margin: 9px;
+  }
+  .way-content {
+    padding: 0px 15px;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .way h4 {
+    font-size: 15px;
+  }
+  .way p {
+    font-size: 9px;
+  }
+  .check-content h5 {
+    font-size: 13px;
+  }
+  .check-content {
+    margin-top: 2rem;
+  }
+  .work-btn button {
+    width: 125px;
+    font-size: 13px;
+    margin: 9px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .way h4 {
+    font-size: 20px;
+  }
+  .way p {
+    font-size: 11px;
+  }
+  .check-content h5 {
+    font-size: 17px;
+  }
+  .check-content {
+    margin-top: 2rem;
+  }
+}
